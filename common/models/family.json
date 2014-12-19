@@ -1,0 +1,31 @@
+{
+  "name": "family",
+  "base": "PersistedModel",
+  "properties": {
+    "owner_id": {
+      "type": "number",
+      "required": true
+    },
+    "member_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "users": {
+      "type": "hasMany",
+      "model": "user",
+      "foreignKey": "user_id"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    }
+  ],
+  "methods": []
+}

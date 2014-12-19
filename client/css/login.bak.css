@@ -1,0 +1,164 @@
+body {
+	padding-top: 0px;
+	/* margin-bottom: 60px; */
+	/* background-color: #0067c6; */
+	background-color: #eee;
+/* 	background-image: url('../images/bg_home.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% -50px;
+	background-size: 200px 200px;
+	min-height: 768px; */
+}
+
+#form_signin {
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	padding: 30px;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,0.8);
+	display: block;
+}
+
+#form_container {
+	max-width: 360px;
+	margin: 0 auto;
+	/* text-align: center; */
+}
+
+#brand {
+	max-width: 360px;
+	margin: 0 auto;
+	display: block;
+	color: #fafafa;
+	text-shadow: 0px 1px 1px rgba(0,0,0,1.0);
+	font-size: 36px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+@media (min-width: 768px) {
+	#brand {
+		font-size: 48px;
+	}
+}
+
+#brand_img {
+	height: 200px;
+	width: 200px;
+	margin-bottom: -65px;
+	margin-top: -50px;
+	-webkit-filter: blur(2px);
+}
+@media (min-width: 768px) {
+	#brand_img {
+		position: fixed;
+		left: 50%;
+		bottom: 50%;
+		height: 1600px;
+		width: 1600px;
+		margin-bottom: -600px;
+		margin-left: -1000px;
+		z-index: -1;
+		-webkit-filter: blur(20px);
+	}
+}
+
+#brand_img.faded {
+	opacity: 0.8;
+}
+
+.brand_img_container {
+	text-align: center;
+}
+
+.form-signin {
+	max-width: 360px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin h2 {
+	font-size: 26px;
+	margin-top: 0px;
+}
+
+.form-signin .formsignin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.vertical-center {
+	min-height: 70%;
+	min-height: 70vh;
+	
+	display: flex;
+	align-items: center;
+}
+
+.panel {
+	background-color: #fdfdfd;
+	border-color: #ddd;
+	box-shadow: 0 0 8px rgba(0,0,0,0.1);
+	z-index: 1;
+	position: relative;
+}
+
+.panel-body > p {
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+
+#alert_signin {
+	display: none;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+}
+
+#footer > .container > .text-muted {
+	margin: 20px 0;
+}
+
+#logo {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: auto;
+}

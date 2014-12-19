@@ -1,0 +1,35 @@
+{
+  "name": "user",
+  "base": "User",
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "controllers": {
+      "type": "hasMany",
+      "model": "controller",
+      "foreignKey": "owner_id"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW",
+      "property": "find"
+    },
+	{
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": []
+}

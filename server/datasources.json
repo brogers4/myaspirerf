@@ -1,0 +1,6 @@
+{
+  "arf_db": {
+    "name": "arf_db",
+    "connector": "memory"
+  }
+}

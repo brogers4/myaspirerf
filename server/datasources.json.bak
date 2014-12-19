@@ -1,0 +1,21 @@
+{
+  "mongodb_dev": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "arf_dev",
+    "username": "arf_admin",
+    "password": "Eatoneaton!23",
+    "name": "mongodb_dev",
+    "connector": "mongodb"
+  },
+  "arfDB": {
+    "name": "arfDB",
+    "connector": "mongodb"
+  },
+  "arf_mongolab": {
+	"defaultForType": "mongodb",
+	"url": "mongodb://brogers4:eatoneaton123@ds053310.mongolab.com:53310/myaspirerf",
+	"name": "arf_mongolab",
+	"connector": "mongodb"
+  }
+}

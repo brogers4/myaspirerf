@@ -1,0 +1,8 @@
+{
+  "arf_db": {
+	"defaultForType": "mongodb",
+	"url": "mongodb://admin:Eatoneaton!23@ds053310.mongolab.com:53310/myaspirerf",
+	"name": "arf_db",
+	"connector": "mongodb"
+  }
+}

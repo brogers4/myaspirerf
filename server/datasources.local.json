@@ -1,0 +1,11 @@
+{
+  "arf_db": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "arf_dev",
+    "username": "arf_admin",
+    "password": "Eatoneaton!23",
+    "name": "arf_db",
+    "connector": "mongodb"
+  }
+}

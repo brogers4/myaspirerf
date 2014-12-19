@@ -1,0 +1,88 @@
+.bg-etnblue {
+	background-color: #0067c6;
+}
+
+.text-etnblue {
+	color: #0067c6;
+}
+
+.text-etnblue-inverse {
+	color: #fff;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.bg-warning-dark {
+	background: #fcc917 !important;
+}
+
+.text-warning {
+	color: #fcc917 !important;
+}
+
+.text-warning-inverse {
+	color: #fff;
+}
+
+.bg-danger-dark {
+	background-color: #d12421
+}
+
+.text-danger {
+	color: #d12421 !important;
+}
+
+.text-danger-inverse {
+	color: #fff;
+}
+
+.text-subtle {
+	color: #bbb !important;
+}
+
+.bg-subtle {
+	background-color: #eee !important;
+}
+
+.bg-device-lock {
+	background: #fcc917;
+}
+
+.bg-device-lock-dark {
+	background: #EFBD0F !important;
+}
+
+.bg-device-light {
+	background: #82b8c9;
+	/* background: rgb(0, 176, 171) !important; */
+}
+
+.bg-device-light-dark {
+	background: #74ABBD !important;
+}
+
+.text-device-light {
+	color: #82b8c9 !important;
+}
+
+.bg-device-receptacle {
+	background: #82b8c9 !important;
+}
+
+.bg-device-energy {
+	background: #b5ba05;
+}
+
+.bg-device-camera {
+	background: #9c1f2e;
+}
+
+.bg-device-climate {
+	background: #00b0ab;
+}
+
+.text-device-off {
+	color: #777 !important;
+}

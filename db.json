@@ -1,0 +1,55 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 6,
+    "Role": 6,
+    "controller": 19,
+    "device": 1,
+    "user": 1,
+    "family": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {
+      "1": "{\"id\":1,\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":1}",
+      "2": "{\"id\":2,\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":2}",
+      "3": "{\"id\":3,\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":3}",
+      "4": "{\"id\":4,\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":4}",
+      "5": "{\"id\":5,\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":5}"
+    },
+    "Role": {
+      "1": "{\"id\":1,\"name\":\"admin\",\"created\":\"2014-11-20T15:53:22.273Z\",\"modified\":\"2014-11-20T15:53:22.273Z\"}",
+      "2": "{\"id\":2,\"name\":\"admin\",\"created\":\"2014-11-20T18:03:47.740Z\",\"modified\":\"2014-11-20T18:03:47.740Z\"}",
+      "3": "{\"id\":3,\"name\":\"admin\",\"created\":\"2014-11-20T18:05:27.809Z\",\"modified\":\"2014-11-20T18:05:27.809Z\"}",
+      "4": "{\"id\":4,\"name\":\"admin\",\"created\":\"2014-11-20T18:06:32.113Z\",\"modified\":\"2014-11-20T18:06:32.113Z\"}",
+      "5": "{\"id\":5,\"name\":\"admin\",\"created\":\"2014-11-20T18:09:13.391Z\",\"modified\":\"2014-11-20T18:09:13.391Z\"}"
+    },
+    "controller": {
+      "1": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Brandon's Controller\",\"id\":1,\"owner_id\":1}",
+      "2": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Austin's Controller\",\"id\":2,\"owner_id\":2}",
+      "3": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Max's Controller\",\"id\":3,\"owner_id\":3}",
+      "4": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Brandon's Controller\",\"id\":4,\"owner_id\":1}",
+      "5": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Austin's Controller\",\"id\":5,\"owner_id\":2}",
+      "6": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Max's Controller\",\"id\":6,\"owner_id\":3}",
+      "7": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Brandon's Controller\",\"id\":7,\"owner_id\":1}",
+      "8": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Austin's Controller\",\"id\":8,\"owner_id\":2}",
+      "9": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Max's Controller\",\"id\":9,\"owner_id\":3}",
+      "10": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Brandon's Controller\",\"id\":10,\"owner_id\":1}",
+      "11": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Austin's Controller\",\"id\":11,\"owner_id\":2}",
+      "12": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Max's Controller\",\"id\":12,\"owner_id\":3}",
+      "13": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Brandon's Controller\",\"id\":13,\"owner_id\":1}",
+      "14": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Austin's Controller\",\"id\":14,\"owner_id\":2}",
+      "15": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Max's Controller\",\"id\":15,\"owner_id\":3}",
+      "16": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Brandon's Controller\",\"id\":16,\"owner_id\":1}",
+      "17": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Austin's Controller\",\"id\":17,\"owner_id\":2}",
+      "18": "{\"agent\":\"https://agent.electricimp.com/ATFkDeFEQemj\",\"imp_id\":\"232e41b030728cee\",\"name\":\"Max's Controller\",\"id\":18,\"owner_id\":3}"
+    },
+    "device": {},
+    "user": {},
+    "family": {}
+  }
+}

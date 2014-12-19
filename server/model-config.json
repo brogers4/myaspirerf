@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "arf_db",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "arf_db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "arf_db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "arf_db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "arf_db",
+    "public": false
+  },
+  "controller": {
+    "dataSource": "arf_db",
+    "public": true
+  },
+  "device": {
+    "dataSource": "arf_db",
+    "public": true
+  },
+  "user": {
+    "dataSource": "arf_db",
+    "public": true
+  },
+  "family": {
+    "dataSource": "arf_db",
+    "public": false
+  },
+  "agent": {
+    "dataSource": "arf_db",
+    "public": true
+  }
+}
